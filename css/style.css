@@ -1,4 +1,4 @@
-body
+body {
   font-size: 14px;
 }
 
@@ -8,7 +8,7 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -20,17 +20,28 @@ h1 {
   font-size: 2em;
 }
 
+h3 {
+  font-size: 1.3em;
+}
+
 .example, h3 {
   padding-top: 30px;
   text-align center
 }
 
-h3 {
-  font-size: 1.3em;
-}
-
+/** Common styled assigned to 'element' class is gathered below **/
 .element {
-  background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+
+/** Green background is assigned as below **/
+.bg-green {
+  background-color: green;
+}
+
+/** Blue background is assigned as below **/
+.bg-blue {
+  background-color: blue;
+}
